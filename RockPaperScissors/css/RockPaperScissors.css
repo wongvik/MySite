@@ -1,0 +1,52 @@
+/*
+    CSS Style Sheet for the Rock Paper Scissor game
+*/
+
+
+.game-section {
+  padding: 7rem 0;
+
+  width: 70%;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+    text-align: center;
+  /*border-bottom: 2px solid black;*/
+}
+   
+img {
+    height:120px;
+}
+
+#scoreboard table{
+    font-size: 30px;
+    margin: auto;
+}
+
+#gamebox {
+    margin: auto;
+    text-align: left;
+    height: 400px;
+    width: 580px;
+    border: 1px solid #ccc;
+    font: 16px/26px Georgia, Garamond, Serif;
+    overflow: auto;
+    
+}
+
+
+#buttons {
+    padding: 10px;
+}
+
+
+#human {
+    text-align: left;
+   
+}
+
+#comp {
+    text-align: right;
+}

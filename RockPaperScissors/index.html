@@ -1,0 +1,235 @@
+
+<!DOCTYPE
+html>
+
+<html lang="en">
+
+
+
+<head>
+
+
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="description" content="">
+
+  <meta name="author" content="">
+
+
+
+  <title>Vikki Wong</title>
+
+    <!--Custom made css for this page-->
+    <link rel="stylesheet" type="text/css" href="css/RockPaperScissors.css">
+  <!-- Bootstrap core CSS -->
+
+  <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+  <!-- Custom fonts for this template -->
+
+  <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
+
+
+
+  <!-- Custom styles for this template -->
+
+  <link href="../../css/vikki.min.css" rel="stylesheet">
+
+
+
+</head>
+
+
+
+<body id="page-top">
+
+
+
+  <div id="loader-wrapper">
+
+    <div id="loader"></div>
+
+
+
+    <div class="loader-section section-left"></div>
+
+    <div class="loader-section section-right"></div>
+
+
+
+  </div>
+
+  <div class="content-body">
+
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+
+      <div class="container">
+
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Vikki</a>
+
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+
+          Menu
+
+          <i class="fas fa-bars"></i>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+
+              <a class="nav-link js-scroll-trigger" href="../">Home</a>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </nav>
+
+
+    <section class="game-section">
+
+        <h2>Rock Paper Scissors</h2>
+        
+        <div class="container">
+            <!-- Gamebox for displaying all the player's outputs-->
+            <div id="outer">
+                <div id="gamebox">
+                </div>
+            </div>
+            
+            <!--Buttons for player to choose for the Rock Paper Scissor game-->
+            <div id="buttons">
+                <input id="rock" type="button" onclick="winLose('rock')" value="Rock">
+                <input id="paper" type="button" onclick="winLose('paper')" value="Paper">
+                <input id="scissor" type="button" onclick="winLose('scissor')" value="Scissor">
+            </div>
+            
+            <!--Resets the gameboard and scoreboard for the user-->
+            <div id="buttons">
+                <input id="reset" type="button" onclick="reset()" value="Reset Game">
+            </div>
+            
+            <!--Shows if user wins or loses or draw-->
+            <div id="winlosemsg" style="color:red;font-size:50px;display:block"> 
+            </div>
+            
+            <!--Shows the score for player and computer-->
+            <div id="scoreboard">
+                <table style="width:100%">
+                    <tr>
+                      <th>Human</th>
+                      <th>Computer</th> 
+                    </tr>
+                    <tr>
+                      <td id="pScore">0</td>
+                      <td id="cScore">0</td> 
+                      
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!-- Contact Section -->
+
+    <section class="contact-section bg-black">
+
+      <div class="container">
+
+        <div class="social d-flex justify-content-center">
+
+          <a href="https://www.linkedin.com/in/vikki-wong/" class="mx-2">
+
+            <i class="fab fa-linkedin"></i>
+
+          </a>
+
+          <a href="https://github.com/wongvik" class="mx-2">
+
+            <i class="fab fa-github"></i>
+
+          </a>
+
+        </div>
+
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- Footer -->
+
+    <footer class="bg-black small text-center text-white-50">
+
+      <div class="container">
+
+        Copyright &copy; Vikki Wong 2018
+
+      </div>
+
+    </footer>
+
+  </div>
+
+
+
+
+
+  <!-- Bootstrap core JavaScript -->
+
+  <script src="../../vendor/jquery/jquery.min.js"></script>
+
+  <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+
+  <!-- Plugin JavaScript -->
+
+  <script src="../../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+
+
+  <!-- Custom scripts for this template -->
+
+  <script src="../../js/vikki.min.js"></script>
+
+    <!--JavaScript of the Rock Paper Scissor page-->
+    <script src="js/RockPaperScissor.js"></script>
+
+
+</body>
+
+
+
+</html>
